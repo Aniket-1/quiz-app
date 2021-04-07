@@ -1,0 +1,232 @@
+[
+    {
+      "category": "NoSQL Database",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following is a NoSQL Database Type?",
+      "correct_answer": "Document databases",
+      "incorrect_answers": [
+        " SQL",
+        "JSON",
+        "All of the mentioned"
+      ],
+      "answers":[  "Document databases", "SQL",
+        "JSON",
+        "All of the mentioned"]
+    },
+    {
+      "category": "NoSQL Database",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "NoSQL databases is used mainly for handling large volumes of ______ data.",
+      "correct_answer": "unstructured",
+      "incorrect_answers": ["structured" , "semi-structured" , "all of the mentioned"],
+      "answers":["structured" , "semi-structured" , "all of the mentioned", "unstructured"]
+      
+    },
+    {
+      "category": "NoSQL Database",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following are the simplest NoSQL databases?",
+      "correct_answer": "Key-value",
+      "incorrect_answers": [
+       "Wide-column",
+       "Document",
+       "All of the mentioned"
+      ],
+      "answers":["Wide-column","Key-value",
+        "Document",
+        "All of the mentioned"]
+    },
+    {
+      "category": "NoSQL Database",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Most NoSQL databases support automatic ____ meaning that you get high availability and quick recovery",
+      "correct_answer": "replications",
+      "incorrect_answers": [
+        "processing",
+        "scalability",
+        "all of the mentioned"
+      ],
+      "answers":["processing",
+        "scalability","replications",
+        "all of the mentioned"]
+    },
+    {
+      "category": "NoSQL Database",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "____ stores are used to store information about networks, such as social connections.",
+      "correct_answer": "Graph",
+      "incorrect_answers": [
+         "Key-value",
+         "Wide-column",
+         "Document"
+        ],
+        "answers":["Graph","Key-value",
+          "Wide-column",
+          "Document"]
+    },
+    {
+      "category": "MongoDB",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the interactive shell for MongoDB called?",
+      "correct_answer": "mongo",
+      "incorrect_answers": ["mongodb" , "dbmong" , "none of the mentioned"],
+      "answers":["mongodb" , "dbmong" ,"mongo", "none of the mentioned"]
+    },
+    {
+      "category": "MongoDB",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Administrative information in MongoDB can also be accessed through _____",
+      "correct_answer": "web interface",
+      "incorrect_answers": ["dashboard","psql shell","all of the mentioned"],
+      "answers": ["dashboard","web interface","psql shell","all of the mentioned"]
+    },
+    {
+      "category": "MongoDB",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Which of the following is used for creating a binary export of the contents of a Mongo database?",
+      "correct_answer": "mongodump",
+      "incorrect_answers": ["mongofiles","mongosupport","mongoimport"],
+      "answers":["mongofiles","mongosupport","mongoimport","mongodump"]
+    },
+    {
+      "category": "MongoDB",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of the following tool can be used to reload a database dump?",
+      "correct_answer": "mongorestore",
+      "incorrect_answers": ["mongofiles","mongosupport","none of the mentioned"],
+      "answers": ["mongorestore","mongofiles","mongosupport","none of the mentioned"]
+    },
+    {
+      "category": "MongoDB",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "mongosniff requires the _____ network library and is only available for Unix-like systems.",
+      "correct_answer": "Libpcap",
+      "incorrect_answers": ["Wirecap","Wcap","None of the mentioned"],
+      "answers":["Wirecap","Wcap","Libpcap","None of the mentioned"]
+    },
+    {
+      "category": "Nosql Syntax",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The basic syntax of Aggregation is?",
+      "correct_answer": "db.COLLECTION_NAME.aggregate (AGGREGATE_OPERATION)",
+      "incorrect_answers": [
+         "db.COLLECTION_NAME.aggregate ({key:1})",
+         "db.COLLECTION_NAME.aggregation (AGGREGATE_OPERATION)",
+         "aggregate (AGGREGATE_OPERATION)"
+      ],
+      "answers":["db.COLLECTION_NAME.aggregate (AGGREGATE_OPERATION)","db.COLLECTION_NAME.aggregate ({key:1})",
+        "db.COLLECTION_NAME.aggregation (AGGREGATE_OPERATION)",
+        "aggregate (AGGREGATE_OPERATION)"]
+    },
+    {
+      "category": "NoSQL",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "How many background processes runs behind balanced cluster?",
+      "correct_answer": "2",
+      "incorrect_answers": ["1","3","All of the mentioned"],
+      "answers":["1","3","2","All of the mentioned"]
+    },
+    {
+      "category": "NoSQL",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "_________ is a background process that keeps chunks from growing too large.",
+      "correct_answer": "Splitting",
+      "incorrect_answers": ["Balancing", "Chunking", "All of the mentioned"],
+      "answers": ["Balancing", "Chunking", "All of the mentioned","Splitting"]
+    },
+    {
+      "category": "MongoDB",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "To view a role’s information, you must be explicitly granted the role or must have the _________ action on the role’s database.",
+      "correct_answer": "viewRole",
+      "incorrect_answers": ["viewUser", "grantRole", "none of the mentioned"],
+      "answers":["viewRole","viewUser", "grantRole", "none of the mentioned"]
+    },
+    {
+      "category": "MongoDB",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Instead of Primary Key mongoDB use?",
+      "correct_answer": "Default key _id",
+      "incorrect_answers": [
+        "Embedded Documents",
+        "mongod",
+        "mongo"
+      ],
+      "answers":[ "Default key _id","Embedded Documents",
+        "mongod",
+        "mongo"]
+    },
+    {
+      "category": "NoSQL",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The system generated _id field is?",
+      "correct_answer": "A 12-bytes hexadecimal value",
+      "incorrect_answers": [
+        "A 16-bytes octal value",
+        "A 12-bytes decimal valuer",
+        "A 10 bytes binary value"
+      ],
+      "answers":[ "A 16-bytes octal value","A 12-bytes hexadecimal value",
+        "A 12-bytes decimal valuer",
+        "A 10 bytes binary value"]
+    },
+    {
+      "category": "NoSQL",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "NoSQL databases are:",
+      "correct_answer": "Horizontally scalable",
+      "incorrect_answers": ["Vertically scalable", "Either horizontally or vertically scalable", "They don't scale"],
+      "answers":["Vertically scalable", "Either horizontally or vertically scalable", "They don't scale","Horizontally scalable"]
+    },
+    {
+      "category": "MongoDB",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": " _____________ is used to control mongod commits in the journal. ",
+      "correct_answer": "commitIntervalMs",
+      "incorrect_answers": ["all of the mentioned","commitInterval","commitIntervMs"],
+      "answers":["commitIntervalMs","all of the mentioned","commitInterval","commitIntervMs"]
+    },
+    {
+      "category": "MongoDB",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "When inserts, updates and deletes have a _________ write concern, write operations return quickly.",
+      "correct_answer": "weak",
+      "incorrect_answers": [
+        "average",
+        "very strong",
+        "strong"
+      ],
+      "answers":["average",
+        "weak","very strong",
+        "strong"]
+    },
+    {
+      "category": "MongoDB",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "____________ is a client or database-generated identifier that uniquely identifies this message.",
+      "correct_answer": "requestID",
+      "incorrect_answers": ["messageLength", "responseTo", "all of the mentioned"],
+      "answers":["requestID","messageLength", "responseTo", "all of the mentioned"]
+    }
+  ]
+  
